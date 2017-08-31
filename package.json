@@ -1,0 +1,25 @@
+{
+  "name": "sketchpod",
+  "description": "sketchpod container environment for use with hexboard demo",
+  "version": "0.1.1",
+  "private": false,
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "config-multipaas": "^0.2.2",
+    "express": "^4.13.4",
+    "patternfly": "^3.4.0",
+    "request": "^2.72.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanj/sketchpod.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "main": "server.js"
+}
